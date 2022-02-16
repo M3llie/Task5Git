@@ -6,5 +6,10 @@ public class Main {
         System.out.println("Miles = " + miles);
 
         SpeedConverter.printConversion(10.5);
+
+        // task 6
+
+        boolean barking = BarkingDog.shouldWakeUp(true, 9);
+        System.out.println(barking);
     }
 }
